@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!--<TargetFramework>netcoreapp3.1</TargetFramework>-->
+    <TargetFramework>net5.0-windows10.0.18362.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Labels.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="squeezenet1.0-9.onnx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
